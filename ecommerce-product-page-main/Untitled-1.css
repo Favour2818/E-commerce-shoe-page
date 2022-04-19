@@ -1,0 +1,151 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 80%;
+    margin: 0 auto;
+    max-height: 100vh;
+}
+header{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    position: sticky;
+    top: 0;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(240, 238, 238);
+}
+
+.nav-left,.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-content > ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 50px;
+    cursor: pointer;
+    font-family: 'Kumbh Sans', sans-serif;
+
+
+}
+.avatar > img{
+    width: 45px;
+    border: 2px solid orangered;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav-right {
+    gap: 40px;
+}
+.nav-left{
+    gap:50px ;
+}
+.cart{
+    cursor: pointer;
+}
+
+
+/* body section */
+
+.main-content{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.section-left{
+    width: 40%;
+
+}
+.section-right{
+    width: 40%;
+}
+.section-left>main>img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+}
+aside>div>img{
+    border-radius: 10px;
+    width: 90px;
+}
+
+.active-shoe:hover{
+    border: 3px solid hsl(26, 100%, 55%);
+    border-radius: 15px;
+    width: fit-content;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+
+.cart-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-num{
+    display: flex;
+    align-items: center;
+    background-color:hsl(223, 64%, 98%);
+    padding: 10px 10px;
+    width: 30%;
+    justify-content: space-between;
+    border-radius: 5px;
+
+}
+.cart-num *{
+    cursor: pointer;
+}
+.zero{
+    cursor: auto;
+}
+.add-cart{
+    background-color: hsl(26, 100%, 55%);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 5px;
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-bottom: 30px;
+
+}
+h3{
+    font-family: 'Kumbh Sans', sans-serif;
+    color:hsl(26, 100%, 55%);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color:hsl(219, 9%, 45%);
+    margin-bottom: 20px;
+
+
+}
